@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom'; // Import NavLink from react-router-dom
 
 function Footer() {
   return (
@@ -9,10 +10,10 @@ function Footer() {
           <div className="w-full sm:w-1/3 mb-6">
             <h4 className="text-lg font-bold mb-4">Quick Links</h4>
             <ul className="space-y-2">
-              <li><a href="#" className="hover:underline">Home</a></li>
-              <li><a href="#" className="hover:underline">About</a></li>
-              <li><a href="#" className="hover:underline">Services</a></li>
-              <li><a href="#" className="hover:underline">Contact</a></li>
+              <li><NavLink to="/" className="hover:underline">Home</NavLink></li>
+              <li><NavLink to="/aboutus" className="hover:underline">About</NavLink></li>
+              <li><NavLink to="/services" className="hover:underline">Services</NavLink></li>
+              <li><NavLink to="/contactus" className="hover:underline">Contact</NavLink></li> {/* Updated Contact Us Link */}
             </ul>
           </div>
 
