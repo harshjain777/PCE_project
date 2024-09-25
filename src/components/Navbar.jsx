@@ -52,7 +52,7 @@ function Navbar() {
           <NavLink to='/' className='text-white hover:text-gray-300 py-2' onClick={() => setIsMobileMenuOpen(false)}>
             Home
           </NavLink>
-          <NavLink to='/about' className='text-white hover:text-gray-300 py-2' onClick={() => setIsMobileMenuOpen(false)}>
+          <NavLink to='/aboutus' className='text-white hover:text-gray-300 py-2' onClick={() => setIsMobileMenuOpen(false)}>
             About
           </NavLink>
           <NavLink to='/services' className='text-white hover:text-gray-300 py-2' onClick={() => setIsMobileMenuOpen(false)}>
